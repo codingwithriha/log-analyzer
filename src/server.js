@@ -32,6 +32,9 @@ app.post("/analyze", upload.single("logFile"), (req, res) => {
     let malformedLines = 0;
 
     for (const line of lines) {
+         if (!line.trim()) {
+    continue;
+  }
       const parsed = parseLine(line);
       if (parsed) {
         parsedLogs.push(parsed);
