@@ -1,0 +1,8 @@
+2024-03-15T14:23:01Z 192.168.1.42 GET /api/users 200 142ms
+2024-03-15T14:23:02Z 10.0.0.7 POST /api/login 401 89ms
+
+BROKEN LOG LINE
+
+{"timestamp":"2024-03-15","ip":"1.1.1.1","method":"GET","path":"/json-api","status":200,"responseTime":"120ms"}
+
+2024-03-15T14:23:10Z 192.168.1.50 GET /products - 0.5s
